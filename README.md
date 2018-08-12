@@ -1,14 +1,15 @@
-# frontend
+# neuralknight vue frontend
 Vue app for interfacing with neuralknight
 
-[![Build Status](https://travis-ci.org/neuralknight/neuralknight.svg?branch=master)](https://travis-ci.org/neuralknight/neuralknight)
-[![Coverage Status](https://coveralls.io/repos/github/neuralknight/neuralknight/badge.svg?branch=master)](https://coveralls.io/github/neuralknight/neuralknight?branch=master)
+[![Build Status](https://travis-ci.org/neuralknight/frontend.svg?branch=master)](https://travis-ci.org/neuralknight/frontend)
+[![Coverage Status](https://coveralls.io/repos/github/neuralknight/frontend/badge.svg?branch=master)](https://coveralls.io/github/neuralknight/frontend?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f5363ef8fb754ae6832e18ed74a8042f)](https://www.codacy.com/project/grandquista/frontend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=neuralknight/frontend&amp;utm_campaign=Badge_Grade_Dashboard)
 
 Rebuild of https://github.com/dsnowb/neuralknight.
 
 **Authors**: David Snowberger, Shannon Tully, Adam Grandquist
 
-**Version**: 1.0.0
+**Version**: 2.0.0
 
 ## Getting Started
 

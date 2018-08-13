@@ -1,0 +1,1 @@
+export YARN_DISABLE_SELF_UPDATE_CHECK="true"

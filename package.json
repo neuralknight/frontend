@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "test": "vue-cli-service test:unit",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e"
   },
@@ -30,10 +32,13 @@
     "@vue/eslint-config-typescript": "^3.0.0",
     "@vue/test-utils": "^1.0.0-beta.24",
     "chai": "^4.1.2",
+    "eslint": "^5.3.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "lint-staged": "^7.2.0",
-    "vue-template-compiler": "^2.5.17"
+    "typescript": "^3.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.15.1"
   },
   "eslintConfig": {
     "root": true,

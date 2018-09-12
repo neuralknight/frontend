@@ -333,9 +333,9 @@
     source-map "^0.5.6"
     vue-template-es2015-compiler "^1.6.0"
 
-"@vue/eslint-config-standard@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@vue/eslint-config-standard/-/eslint-config-standard-3.0.1.tgz#34f322c857ee525aa6d0edda83b2b1698278b682"
+"@vue/eslint-config-standard@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@vue/eslint-config-standard/-/eslint-config-standard-3.0.2.tgz#d4426e09b530ef6aaf3c233607454c09300aad9d"
   dependencies:
     eslint-config-standard "^12.0.0-alpha.0"
     eslint-plugin-import "^2.11.0"

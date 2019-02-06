@@ -402,17 +402,18 @@
     "@vue/cli-shared-utils" "^3.3.0"
     workbox-webpack-plugin "^3.6.3"
 
-"@vue/cli-plugin-typescript@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-typescript/-/cli-plugin-typescript-3.3.0.tgz#a278010e0959ea9be44b23dfdf65d3c3e01c66a9"
-  integrity sha512-JZ+RYMXL27zq3hU/RnJJaVb6OvsQ5M7qTfZEBWnc45oyw/nFBRLkmFYgQztktvxXvlLcTkJeb8I2cTwxZ2BxnA==
+"@vue/cli-plugin-typescript@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-typescript/-/cli-plugin-typescript-3.4.0.tgz#a74f00a30bb253726a9d02e59fd6779853f764e8"
+  integrity sha512-VjNlHghaDEFheXg89C+RxPaYGKebst14/C2oVxHNeuzVO2SG6ac2LRJl0KM6eKKUD+QFj0/NJWrJZKmSgpHO9Q==
   dependencies:
     "@types/webpack-env" "^1.13.6"
-    "@vue/cli-shared-utils" "^3.3.0"
+    "@vue/cli-shared-utils" "^3.4.0"
     fork-ts-checker-webpack-plugin "^0.5.2"
-    globby "^8.0.1"
-    ts-loader "^5.3.2"
-    tslint "^5.12.0"
+    globby "^9.0.0"
+    ts-loader "^5.3.3"
+    tslint "^5.12.1"
+    webpack ">=4 < 4.29"
 
 "@vue/cli-plugin-unit-mocha@^3.3.0":
   version "3.3.0"
@@ -8237,10 +8238,10 @@ tryer@^1.0.0:
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==
 
-ts-loader@^5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-5.3.2.tgz#31d10be522bedfac8ee4c20c735e05a9bd772faf"
-  integrity sha512-TPeXFkdPjOrVEawY4xUgRnzlHEmKQF1DclJghPGq67jKnroVvs6mEGHWYtbUczgeWTvTaqUjSSaMmp1k5do4vw==
+ts-loader@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-5.3.3.tgz#8b4af042e773132d86b3c99ef0acf3b4d325f473"
+  integrity sha512-KwF1SplmOJepnoZ4eRIloH/zXL195F51skt7reEsS6jvDqzgc/YSbz9b8E07GxIUwLXdcD4ssrJu6v8CwaTafA==
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
@@ -8253,10 +8254,10 @@ tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
 
-tslint@^5.12.0:
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.12.0.tgz#47f2dba291ed3d580752d109866fb640768fca36"
-  integrity sha512-CKEcH1MHUBhoV43SA/Jmy1l24HJJgI0eyLbBNSRyFlsQvb9v6Zdq+Nz2vEOH00nC5SUx4SneJ59PZUS/ARcokQ==
+tslint@^5.12.1:
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.12.1.tgz#8cec9d454cf8a1de9b0a26d7bdbad6de362e52c1"
+  integrity sha512-sfodBHOucFg6egff8d1BvuofoOQ/nOeYNfbp7LDlKBcLNrL3lmS5zoiDGyOMdT7YsEXAwWpTdAHwOGOc8eRZAw==
   dependencies:
     babel-code-frame "^6.22.0"
     builtin-modules "^1.1.1"

@@ -39,7 +39,7 @@
     "lint-staged": "^8.1.5",
     "typescript": "^3.4.5",
     "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.32.2"
+    "webpack": "^4.38.0"
   },
   "eslintConfig": {
     "root": true,
